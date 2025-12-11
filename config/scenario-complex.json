@@ -1,0 +1,42 @@
+{
+  "dns": {
+    "example.com": { "type": "A", "value": "192.168.1.10" },
+    "blocked.com": { "type": "A", "value": "192.168.2.20" },
+    "ttltest.com": { "type": "A", "value": "10.10.10.10" }
+  },
+
+  "routes": [
+    {
+      "cidr": "192.168.1.0/24",
+      "nextHop": "192.168.1.10",
+      "interface": "eth0"
+    },
+    {
+      "cidr": "192.168.2.0/24",
+      "nextHop": "192.168.2.1",
+      "interface": "eth1"
+    },
+    {
+      "cidr": "10.10.10.0/24",
+      "nextHop": "10.10.10.1",
+      "interface": "eth2"
+    }
+  ],
+
+  "firewall": [
+    {
+      "action": "DENY",
+      "protocol": "TCP",
+      "source": "10.0.0.1",
+      "destination": "192.168.2.20",
+      "port": 443
+    },
+    {
+      "action": "ALLOW",
+      "protocol": "TCP",
+      "source": "*",
+      "destination": "*",
+      "port": "*"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "packet-tracer",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "type": "commonjs",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saivenkat-A7/packet-tracer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saivenkat-A7/packet-tracer/issues"
+  },
+  "homepage": "https://github.com/saivenkat-A7/packet-tracer#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ip-cidr": "^4.0.2",
+    "netmask": "^2.0.2"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4",
+    "nodemon": "^3.0.2"
+  }
+}
