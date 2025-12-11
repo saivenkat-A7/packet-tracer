@@ -23,7 +23,7 @@ This project resolves domains, simulates routing between nodes, applies firewall
 
 ### 1. Clone Repo
 ```
-git clone <your-public-repo-url>
+git clone https://github.com/saivenkat-A7/packet-tracer.git
 cd packet-tracer
 ```
 
@@ -57,8 +57,15 @@ http://localhost:3000/trace
 ### **Method:** POST  
 ### **URL:** `/trace`  
 ### **Content-Type:** `application/json`
+### **Test /trace API with Thunder Client**
+#### **Endpoint**
+```
+POST http://localhost:3000/trace
+Content-Type: application/json
+```
 
 ---
+
 
 ## 📨 Request Example
 
