@@ -189,19 +189,25 @@ Shows all major simulator features.
 
 #  Screenshot Requirements
 ### Success Response
+
 <img width="1900" height="964" alt="Screenshot 2025-12-10 221533" src="https://github.com/user-attachments/assets/d68a8cee-60f0-4a06-9c05-2d18fbfd6abb" />
 
 ### Failed NXDOMAIN
+
 <img width="1910" height="966" alt="Screenshot 2025-12-10 221713" src="https://github.com/user-attachments/assets/09ce4072-b1d6-49d1-9363-332ddeff14d6" />
+
 ### Failed Blocked_BY_FIREWALL
 
 <img width="1906" height="960" alt="Screenshot 2025-12-10 222315" src="https://github.com/user-attachments/assets/1bc8eed1-d4e5-4438-9af9-73b09177f645" />
+
 ### Failed No Route
 
 <img width="1904" height="969" alt="Screenshot 2025-12-10 222335" src="https://github.com/user-attachments/assets/2b94b23b-2794-4654-9bc3-2b9d9df35817" />
+
 ### Failed TTL Expired
 
 <img width="1890" height="827" alt="Screenshot 2025-12-10 221017" src="https://github.com/user-attachments/assets/52d04c63-09bc-4a90-b1e2-8a8ceb7210b0" />
+
 
 
 
