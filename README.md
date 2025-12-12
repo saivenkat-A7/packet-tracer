@@ -193,7 +193,7 @@ Shows all major simulator features.
 
 ### Failed NXDOMAIN
 <img width="1910" height="966" alt="Screenshot 2025-12-10 221713" src="https://github.com/user-attachments/assets/09ce4072-b1d6-49d1-9363-332ddeff14d6" />
-###  Failed Blocked_BY_FIREWALL
+### Failed Blocked_BY_FIREWALL
 
 <img width="1906" height="960" alt="Screenshot 2025-12-10 222315" src="https://github.com/user-attachments/assets/1bc8eed1-d4e5-4438-9af9-73b09177f645" />
 ### Failed No Route
