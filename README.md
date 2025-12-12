@@ -113,8 +113,21 @@ Content-Type: application/json
 ---
 
 # ❌ Failure Responses
+## No Route to Host Request
+```json
+{
+  "source": "10.0.0.1",
+  "destination": "exam.com",
+  "protocol": "TCP",
+  "port": 80,
+  "ttl": 5,
+  "scenario": "scenario-basic.json"
+}
+```
 
-## 1️⃣ No Route to Host
+
+
+## 1️⃣ No Route to Host Response
 
 ```json
 
@@ -130,7 +143,20 @@ Content-Type: application/json
 
 ---
 
-## 2️⃣ Firewall Blocked
+
+## Firewall Blocked Request
+```json
+{
+  "source": "10.0.0.1",
+  "destination": "blocked.com",
+  "protocol": "TCP",
+  "port": 80,
+  "ttl": 5,
+  "scenario": "scenario-basic.json"
+}
+```
+
+## 2️⃣ Firewall Blocked Response
 
 ```json
 {
